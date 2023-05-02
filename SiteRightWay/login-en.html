@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Right Way</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra&family=Carter+One&family=Delicious+Handrawn&family=DynaPuff&family=EB+Garamond&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="icon" type="text/css" href="img/Logo.png">
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -17,7 +29,7 @@
         <div class="text">
             <h1>THE BEST TIPS FOR<br>YOUR FUTURE</h1>
         </div>
-        <div class="bandeiras">        
+        <div class="bandeiras">
             <a href="login-ptbr.html"><img src="img/br.png"></a>
             <a href="login-en.html"><img src="img/eua.png"></a><br>
         </div>
@@ -30,26 +42,48 @@
         <a href="contato-en.html">Contact</a>
         <a href="login-en.html" class="login">Login</a>
     </nav>
-<div class="wrapper">
+    <!------------------------------------------------------->
     <main>
-        <section> 
-            <h1>Login</h1>
-            <div id="divBusca">
-                <figure>
-                    <img src="img/search3.png" alt="Buscar..." style="width: 31px;"/>
-                </figure>
-                <span>
-                    <input type="text" id="search-bar" placeholder="Digite aqui para pesquisar" style="height: 30px;">
-                    <ul id="suggestions"></ul>
-                </span>
-                <script src="js/search.js"></script>
-                  </div>
-             </section>
+        <div class="box-formulario">
+
+            <div class="formulario">
+
+                <div class="title-form">
+                    <h1>Login</h1>
+                </div>
+                <form action="#" method="post">
+                    <span>
+                        <input type="text" class="input-balao-up" id="email" name="email" placeholder="E-mail"
+                            autocomplete="off" required="" />
+                        <label for="email"> <i class="icon icon-mail-3"></i> </label>
+                    </span>
+                    <span>
+                        <input type="password" class="input-balao-up" id="senha" name="senha" placeholder="Senha"
+                            autocomplete="off" required="" />
+                        <label for="senha"> <i class="icon icon-info"></i> </label>
+                    </span>
+                    <div class="box-btn">
+
+                        <button type="submit" class="btn-envia zoom-shadow">
+                            <i class="icon icon-forward-1">Submit</i>
+                        </button><br>
+                        
+                            <button type="submit" class="btn-envia zoom-shadow">
+                                <a href="cadastro-en.html" class="fade_4S" title="Cadastrar-se"><i
+                                        class="icon icon-user-add"></i>
+                                    Register</a></button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div><!--Box Formulario-->
     </main>
-</div>
-<footer>
-    <a href="https://linktr.ee/rightwayofc?utm_source=linktree_profile_share&ltsid=4b87dd6e-fec8-4af6-80dd-d3064c0760a7"target="_blank">Instagram</a>
-    &copy;Right Way | 2023
-</footer>
+
+    <footer>
+        <a href="https://linktr.ee/rightwayofc?utm_source=linktree_profile_share&ltsid=4b87dd6e-fec8-4af6-80dd-d3064c0760a7"
+            target="_blank">Instagram</a>
+            <p class="copy">&copy;Right Way | 2023</p>
+    </footer>
 </body>
+
 </html>
