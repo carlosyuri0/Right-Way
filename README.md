@@ -1,3 +1,3 @@
 # Right-Way
 
-bem vindoss
+Sejam Bem vindos ao GitHub do Site Right Way!!
