@@ -146,27 +146,6 @@ font-family: 'EB Garamond', serif;
 padding-bottom: 10px;
 background-color: #e9e8e8;
 }
-input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-}
-textarea{
-    display: flex;
-    width: 260px;
-    height: 80px;
-}
-button{
-    display:flex;
-    height: 30px;
-    padding-top: 5px;
-}
-button:hover{
-    cursor: pointer;
-}
-
-
-
 
 .depoi{
     display: flex;
