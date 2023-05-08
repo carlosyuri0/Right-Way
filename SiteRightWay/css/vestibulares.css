@@ -19,10 +19,12 @@ header{
        height: 101px;
 }
 
-figure img{
-    width: 100px;
-    margin-left: 15px;
+
+figure img {
+        width: 122px;
+        margin-left: 0px;
 }
+
 nav{
     background-color: #007FE0;
 }
@@ -82,8 +84,11 @@ footer > a{
 }
 
 main{
-    display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
 }
 section{
     display: flex;
@@ -94,10 +99,9 @@ section{
     display: flex;
     width: 276px;
     height: 30px;
+    padding-top: 25px;
 }
 #suggestions {
-    width: 180px;
-    height: 100px;
     background-color: #fafafac0;
     border: 1px solid #ccc;
     font-family: Arial, sans-serif;
@@ -122,10 +126,89 @@ section{
   #suggestions li:focus {
     background-color: #e1e1e1;
   }
-main > section > h1{
+.wrapper > section > h1{
     font-weight: bolder;
     font-size: 40px;
-font-family: 'EB Garamond', serif;
-padding-bottom: 88px;
-background-color: #e9e8e8;
+    font-family: 'EB Garamond', serif;
+    background-color: #e9e8e8;
+    padding-top: 88px;
+    padding-bottom: 50px;
+    padding-left: 45px;
+   
 }
+
+figure > h1{
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    background-color: #ebebeb;
+    padding: 15px;
+    text-align: justify;
+    padding-top: 34px;
+
+}
+
+main > section > h2{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+padding-bottom: 88px;
+background-color:
+background-color: #ebebeb;;
+}
+
+.dicas > figure > h2 > p{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px; }
+
+.dicas {
+    text-align:left;
+    width: 750px;
+    
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    padding: 5px;
+    text-align: justify;
+    
+}
+
+.dicas-1 > figure {
+    padding: 15px;
+}
+
+
+.dicas-1 > figure > h2{
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+}
+.img-vestibular {
+    display: flex;
+}
+
+.enem {
+    width: 535px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enem-link {
+    width: 120px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure > h3{
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    background-color: #ebebeb;
+    padding: 15px;
+}
+
