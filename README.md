@@ -1,3 +1,9 @@
 # Right-Way
 
 Sejam Bem vindos ao GitHub do Site Right Way!!
+
+Quem somos?
+Somos uma equipe dedicada a fornecer informações precisas e atualizadas, além disso, oferecemos dicas e orientações úteis sobre como se preparar para o vestibular, como escolher o curso certo, como se destacar na faculdade e como construir uma carreira de sucesso após a formatura. Acreditamos que o conhecimento é a chave para o sucesso acadêmico e profissional, e estamos empenhados em fornecer recursos de alta qualidade para ajudar os estudantes a alcançar seus objetivos. Nosso site é atualizado regularmente com novas informações e recursos, e estamos sempre abertos a feedbacks e sugestões de nossos usuários. Acreditamos que a colaboração e o compartilhamento de ideias são fundamentais para promover um ambiente educacional saudável e próspero. Se você estiver procurando por orientações confiáveis e informações precisas sobre cursos e vestibulares, você veio ao lugar certo. Obrigado por nos visitar!
+
+Nosso Obejtivo:
+O nosso objetivo principal é ajudar os estudantes a tomar decisões informadas sobre suas carreiras e alcançar o sucesso acadêmico e profissional. Acreditamos que todos os estudantes merecem acesso a informações claras e precisas sobre suas opções educacionais, independentemente de seu contexto socioeconômico ou cultural. Nosso objetivo é promover a igualdade de oportunidades na educação, fornecendo recursos e orientações valiosas para ajudar os estudantes a navegar com sucesso pelo processo educacional. Além disso, buscamos incentivar a inovação e o pensamento crítico por meio de nossas dicas e orientações sobre como escolher o curso certo, se preparar para o vestibular, se destacar na faculdade e construir uma carreira de sucesso após a formatura. Acreditamos que, ao fornecer essas informações, podemos ajudar os estudantes a desenvolver as habilidades necessárias para enfrentar os desafios e oportunidades que surgem em suas carreiras.
