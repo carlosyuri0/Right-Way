@@ -222,7 +222,7 @@ figure > h3{
     
 }
 
-a {
+#inscri{
     display: flex;
     align-items: center;
     flex-direction: column;
