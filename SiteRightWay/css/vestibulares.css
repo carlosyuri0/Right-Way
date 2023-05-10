@@ -204,11 +204,12 @@ p{
 
 .enem-link {
     width: 120px;
-    padding: 10px;
+    padding: 17px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
+    width: 300px;
 }
 
 figure > h3{
