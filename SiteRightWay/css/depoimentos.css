@@ -133,19 +133,6 @@ font-family: 'EB Garamond', serif;
 padding-bottom: 88px;
 background-color: #e9e8e8;
 }
-#comment{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-label{
-    display: flex;
-    font-weight: bolder;
-    font-size: 25px;
-font-family: 'EB Garamond', serif;
-padding-bottom: 10px;
-background-color: #e9e8e8;
-}
 
 .depoi{
     display: flex;
@@ -162,6 +149,7 @@ background-color: #e9e8e8;
     display: flex;
     flex-wrap: wrap;
     font-size: 17px;
+    font-family: 'Karla', sans-serif;
     
 }
 .depoi > figure > h2 > p{
