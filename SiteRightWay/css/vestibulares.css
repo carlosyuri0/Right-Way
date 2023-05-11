@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    background-color: rgba(245, 245, 245, 0.918);
+    background-color: #ffffff;
 }
 .bandeiras{
     display: flex;
@@ -154,8 +154,8 @@ main > section > h2{
     font-size: 40px;
     font-family: 'Karla', sans-serif;
 padding-bottom: 88px;
-background-color:
-background-color: #ebebeb;;
+
+background-color: #ebebeb;
 }
 
 .dicas > figure > h2 > p{
