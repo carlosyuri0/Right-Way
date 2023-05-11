@@ -128,7 +128,57 @@
     </div> 
 
 
+    <div id="comment">
+        <label for="name">Seu nome:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="comment">Digite seu comentário:</label>
+        <textarea id="comment" name="comment"></textarea>
+        <br>
+        <label for="photo">Sua foto de perfil:</label>
+        <input type="file" id="photo" name="photo">
+        <br>
+        <button onclick="addComment()">Adicionar Comentário</button>
+      </div>
+      
+      <div id="comment-section"></div>
+      
 
+<script>
+   function addComment() {
+  // obter os valores do nome, comentário e foto
+  var name = document.getElementById("name").value;
+  var comment = document.getElementById("comment").value;
+  var photo = document.getElementById("photo").files[0];
+
+  // criar um novo elemento de comentário
+  var commentDiv = document.createElement("div");
+  commentDiv.classList.add("comment");
+
+  // criar um elemento de imagem para a foto de perfil
+  var photoImg = document.createElement("img");
+  photoImg.classList.add("photo");
+  var photoUrl = URL.createObjectURL(photo);
+  photoImg.src = photoUrl;
+
+  // criar um elemento de parágrafo para o nome e o comentário
+  var para = document.createElement("p");
+  para.classList.add("text");
+  var nameNode = document.createTextNode(name + ": ");
+  var commentNode = document.createTextNode(comment);
+  para.appendChild(nameNode);
+  para.appendChild(commentNode);
+
+  // adicionar a imagem e o parágrafo ao elemento de comentário
+  commentDiv.appendChild(photoImg);
+  commentDiv.appendChild(para);
+
+  // adicionar o elemento do comentário à seção de comentários
+  var element = document.getElementById("comment-section");
+  element.appendChild(commentDiv);
+}
+
+</script>
 
 
     <footer>
