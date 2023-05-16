@@ -54,7 +54,6 @@ nav a {
     top: 104px;
     right: 15px;
 }
-
 .copy {
     font-size: 15px;
     color: #ffffff;
@@ -79,6 +78,8 @@ main {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -237,7 +238,7 @@ section {
 
   .carousel-controls button {
     border-radius: 10%;
-    background-color: #a5a5a5;
+    background-color: #b1afaf;
     color: #333;
     padding: 10px 20px;
     margin: 0 5px;
@@ -254,7 +255,8 @@ section {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
-    background-color: #aaaaaa;
+    background-color: #dfdfdf;
+    border-radius: 2%;
   }
   
   .container {
@@ -297,6 +299,7 @@ section {
     display: block;
     width: 250px;
     transition: transform 0.3s ease;
+    border-radius: 3%;
   }
   
   .imagem img:hover {

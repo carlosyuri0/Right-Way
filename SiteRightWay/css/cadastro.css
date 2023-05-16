@@ -39,7 +39,10 @@ nav {
   max-height: 175px;
   align-items: center;
 }
-
+.copy {
+  font-size: 15px;
+  color: #ffffff;
+}
 nav {
   padding: 18px;
 }

@@ -18,6 +18,10 @@ header{
        background-color: #ffffff;
        height: 101px;
 }
+.copy {
+    font-size: 15px;
+    color: #ffffff;
+}
 
 figure img{
     width: 100px;
