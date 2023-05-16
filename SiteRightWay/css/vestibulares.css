@@ -19,7 +19,10 @@ header{
        height: 101px;
 }
 
-
+.copy {
+    font-size: 15px;
+    color: #ffffff;
+}
 figure img {
         width: 122px;
         margin-left: 0px;
