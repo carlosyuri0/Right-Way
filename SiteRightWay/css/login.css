@@ -185,7 +185,7 @@ main {
 
 .input-balao-up::-webkit-input-placeholder {
 
-  color: #cdcdcd;
+  color: #000000;
   font-weight: 300;
 
 }
@@ -227,90 +227,13 @@ main {
 .input-balao-up:focus + label,
 .input-balao-up:active + label {
   color: #fff;
-  background: #cdcdcd;
+  background: #a7a7a7;
   left: -32px;
   transform: translateY(-52px);
 }
 
 .input-balao-up:focus + label:after,
 .input-balao-up:active + label:after {
-  
-  border-top: 6px solid #cdcdcd;
-
-}
-
-
-
-.textarea-balao-up {
-
-  display: inline-block;
-  width: 100%;
-  height: 80px;
-  resize: none;
-  padding: 15px 0 10px 50px;
-  font-family: "Open Sans", sans;
-  font-weight: 400;
-  color: #4C4C4C;
-  background: #ffffff;
-  border: 0;
-  border-radius: 50px;
-  outline: 0;
-  transition: all .3s ease-in-out;
-  box-shadow: 0 13px 8px -8px rgba(0, 0, 0, 0.5);
-
-}
-
-.textarea-balao-up::-webkit-input-placeholder {
-
-  color: #000000;
-  font-weight: 300;
-
-}
-
-
-
-.textarea-balao-up + label:after {
-
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 0;
-  top: 100%;
-  left: 50%;
-  margin-left: -2px;
-  border-left: 10px solid transparent;
-  border-right: 0px solid transparent;
-  border-top: 0px solid rgba(122, 184, 147, 0);
-  transition: all .3s ease-in-out;
-
-}
-
-.textarea-balao-up:focus,
-.textarea-balao-up:active {
-
-  color: #ffffff;
-  padding: 15px 0 10px 25px;
-  background: #cdcdcd;
-
-}
-
-.textarea-balao-up:focus::-webkit-input-placeholder,
-.textarea-balao-up:active::-webkit-input-placeholder {
-
-  color: #ffffff;
-
-}
-
-.textarea-balao-up:focus + label,
-.textarea-balao-up:active + label {
-  color: #fff;
-  background: #cdcdcd;
-  left: -32px;
-  transform: translateY(-52px);
-}
-
-.textarea-balao-up:focus + label:after,
-.textarea-balao-up:active + label:after {
   
   border-top: 6px solid #cdcdcd;
 
