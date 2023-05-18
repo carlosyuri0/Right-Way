@@ -60,8 +60,17 @@ nav a:hover{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background: #e9e8e8;
+    background: #f8f8f8;
     border: 1px solid rgb(255, 255, 255);
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding:60px 0;
 }
 
 main{
@@ -89,6 +98,7 @@ footer > a{
 main{
     display: flex;
     flex-direction: column;
+    border: 2px solid #717171;
 
   
 }
@@ -171,6 +181,13 @@ background-color: #000000;
 }
 
 .box-formulario {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* .box-formulario {
 
     width: 100%;
     align-items: center;
@@ -178,18 +195,18 @@ background-color: #000000;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #ededed;
+  
     padding:60px 0;
 
-}
+} */
 
 .formulario {
 
     width: 700px;
-    background: #ededed;
+    background-image: url("img/contato.png.png");
     padding: 60px 5%;
     text-align: center;
-    border: 2px solid #717171;
+   
 
 }
 
@@ -395,4 +412,10 @@ background-color: #000000;
   box-shadow: 0 13px 8px -8px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.contato{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
 }
