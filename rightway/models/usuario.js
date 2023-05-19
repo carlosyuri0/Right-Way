@@ -1,19 +1,18 @@
 const db = require('../config/db');
 
 class Usuario {
-  constructor(nome, email, senha, fotoPerfil, id = null) {
+  constructor(nome, email, senha, id = null) {
     this.id = id;
     this.nome = nome;
     this.email = email;
     this.senha = senha;
-    this.fotoPerfil = fotoPerfil;
   }
 
   async criar() {
-    const { nome, email, senha, fotoPerfil } = this;
+    const { nome, email, senha } = this;
 
-    const query = 'INSERT INTO usuario (nome, email, senha, foto_perfil) VALUES (?, ?, ?, ?)';
-    const values = [nome, email, senha, fotoPerfil];
+    const query = 'INSERT INTO usuario (nome, email, senha) VALUES (?, ?, ?)';
+    const values = [nome, email, senha];
 
     try {
       const [result] = await db.execute(query, values);
@@ -48,8 +47,8 @@ class Usuario {
         return null;
       }
 
-      const { nome, email, senha, foto_perfil } = rows[0];
-      return new Usuario(nome, email, senha, foto_perfil, id);
+      const { nome, email, senha } = rows[0];
+      return new Usuario(nome, email, senha, id);
     } catch (error) {
       console.error(error);
       throw new Error('Erro ao consultar usuário no banco de dados.');
