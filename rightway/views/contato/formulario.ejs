@@ -73,7 +73,10 @@
 
                         </div>
 
-
+                        <% if (locals.mensagem) { %> 
+                            <p class="mensagemForm"> <%= mensagem %></p> 
+        
+                            <%} %>
 
                         <form action="/contato" method="post">
 
@@ -104,9 +107,12 @@
                                 </button>
                             </div>
                         </form>
-                    </div>
-                </div><!--Box Formulario-->
 
+                      
+                    </div>
+                   
+                </div><!--Box Formulario-->
+              
             </div>
         </main>
 
