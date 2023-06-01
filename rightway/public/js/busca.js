@@ -2,10 +2,10 @@ const searchBar = document.getElementById("search-bar");
             const suggestionList = document.getElementById("suggestions");
             
             const suggestions = [
-              { text: "Cursos", link: "file:///C:/Users/cc123/OneDrive/%C3%81rea%20de%20Trabalho/SiteRightWay/SiteRightWay/cursos-ptbr.html" },
-              { text: "Depoimentos", link: "file:///C:/Users/cc123/OneDrive/%C3%81rea%20de%20Trabalho/SiteRightWay/SiteRightWay/depoimentos-ptbr.html" },
-              { text: "Vestibulares", link: "file:///C:/Users/cc123/OneDrive/%C3%81rea%20de%20Trabalho/SiteRightWay/SiteRightWay/vestibulares-ptbr.html" },
-              { text: "Contato", link: "file:///C:/Users/cc123/OneDrive/%C3%81rea%20de%20Trabalho/SiteRightWay/SiteRightWay/contato-ptbr.html" },
+              { text: "Cursos", link: "/curso" },
+              { text: "Depoimentos", link: "/depoimentos" },
+              { text: "Vestibulares", link: "/vestibulares" },
+              { text: "Contato", link: "/contato" },
               { text: "Direito", link: "#direito" },
               { text: "Engenharia", link: "#engenharia" },
               { text: "Design", link: "#design" },
