@@ -14,6 +14,7 @@ const searchBar = document.getElementById("search-bar");
               { text: "Ti", link: "#ti" },
               { text: "Tecnologia da Informação", link: "#ti" },
               { text: "Administração", link: "#adm" },
+              { text: "Artes Visuais", link: "#artes" },
               { text: "Engenharia de Software", link: "#Engenharia de Software" },
               { text: "Ciências Contábeis", link: "#CienciasContabeis" },
               { text: "Enfermagem", link: "#Enfermagem" },
