@@ -423,11 +423,23 @@ background-color: #000000;
   flex-wrap: nowrap;
 }
 
-.mensagemForm{
+/* .mensagemForm{
   border: 3px solid #000000;
   padding: 5px;
   width: 35%;
   color: lemonchiffon;
   background-color: #007fe0;
   margin: auto;
+} */
+
+.mensagemForm{
+  padding: 0.7em 2em;
+    cursor: pointer;
+    border: none;
+    background: #000000;
+    box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.5)!important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
 }
