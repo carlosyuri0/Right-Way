@@ -154,6 +154,7 @@ background-color: #e9e8e8;
     flex-wrap: wrap;
     font-size: 17px;
     font-family: 'Karla', sans-serif;
+    padding-left: 15px;
     
 }
 .depoi > figure > h2 > p{
