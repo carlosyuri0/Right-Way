@@ -104,15 +104,7 @@ section{
     height: 30px;
     padding-top: 25px;
 }
-#suggestions {
-    background-color: #fafafac0;
-    border: 1px solid #ccc;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-  }
+
   #suggestions a{
     color: black;
     text-decoration: none;
@@ -157,8 +149,7 @@ main > section > h2{
     font-size: 40px;
     font-family: 'Karla', sans-serif;
 padding-bottom: 88px;
-background-color:
-background-color: #ebebeb;;
+background-color: #ebebeb;
 }
 
 .dicas > figure > h2 > p{
