@@ -7,6 +7,7 @@ router.get('/login', usuarioController.formularioLogin);
 // router.post('/login', usuarioController.processarformularioLogin);
 
 router.get('/cadastro', usuarioController.formularioCadastro);
+router.post('/cadastro', usuarioController.Cadastro);
 
  //router.post('/cadastro', usuarioController.processarformularioCadastro);
 

@@ -1,7 +1,7 @@
 const db = require('../config/db');
 
 class Usuario {
-  constructor(nome, email, senha, id = null) {
+  constructor({nome, email, senha, id }) {
     this.id = id;
     this.nome = nome;
     this.email = email;
@@ -9,14 +9,14 @@ class Usuario {
   }
 
   async criar() {
-    const { nome, email, senha } = this;
-
-    const query = 'INSERT INTO usuario (nome, email, senha) VALUES (?, ?, ?)';
-    const values = [nome, email, senha];
+    console.log("TESTEEEEEEEE")
+    console.log(this.nome);
+    const query = 'INSERT INTO usuario (nome, email, senha) VALUES (?, ?, ?);';
+    const values = [this.nome, this.email, this.senha];
 
     try {
-      const [result] = await db.execute(query, values);
-      this.id = result.insertId;
+      const [rows] = await db.query(query, values);
+      this.id = rows.insertId;
       return this;
     } catch (error) {
       console.error(error);
