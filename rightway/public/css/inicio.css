@@ -200,6 +200,7 @@ section {
     position: relative;
     width: 100%;
     overflow: hidden;
+    border-radius: 10px;
   }
 
   .carousel-inner {
@@ -280,7 +281,7 @@ section {
   }
   
   .imagem {
-    
+    border-radius: 10px;
     overflow: hidden;
   }
   
@@ -294,3 +295,160 @@ section {
   .imagem img:hover {
     transform: scale(1.1);
   }
+
+  @media (max-width: 768px) {
+    /* Adjust styles for small screens */
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        padding: 18px;
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .bandeiras {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .bandeiras img {
+        margin-right: 10px;
+    }
+
+    figure img {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .login {
+        top: auto;
+        bottom: 15px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 768px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .titulo2 {
+        font-size: 24px;
+    }
+
+    .titulo1 {
+        font-size: 30px;
+    }
+
+    .titulo3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .texto-ini {
+        padding: 10px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for smaller screens */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        padding: 18px;
+        width: 100%;
+        max-width: 480px;
+    }
+    .cont1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    figure img {
+        margin-bottom: 10px;
+    }
+    .destaque {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 480px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+
+    .titulo2 {
+        font-size: 20px;
+    }
+
+    .titulo1 {
+        font-size: 24px;
+    }
+
+    .titulo3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .texto-ini {
+        padding: 5px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem img {
+        width: 100%;
+    }
+}
