@@ -41,7 +41,14 @@
         <a href="/curso">Cursos</a>
         <a href="/depoimentos">Depoimentos</a>
         <a href="/contato">Contato</a>
-        <a href="/usuarios/login" class="login">Login</a>
+
+        <% if (typeof usuario === "undefined") { %>
+            <a href="/usuarios/login" class="login">Login</a>
+        <% } else { %>
+            <span>Seja bem-vindo <%= usuario.email %></span>
+        <% } %>
+        
+
     </nav>
     <main>
         <div class="wrapper">

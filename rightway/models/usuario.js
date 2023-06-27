@@ -52,6 +52,25 @@ class Usuario {
       throw new Error('Erro ao consultar usuário no banco de dados.');
     }
   }
+
+  static async consultarPorEmail(email) {
+    const query = 'SELECT * FROM usuario WHERE email = ?';
+    const values = [email];
+
+    try {
+      const [rows] = await db.execute(query, values);
+
+      if (rows.length === 0) {
+        return null;
+      }
+
+      return rows[0];      
+    } catch (error) {
+      console.error(error);
+      throw new Error('Erro ao consultar usuário no banco de dados.');
+    }
+  }
+
   async deletar() {
     if (!this.id) {
       throw new Error('Não é possível deletar um usuário sem ID.');
