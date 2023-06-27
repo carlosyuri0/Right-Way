@@ -65,7 +65,8 @@ nav a:hover {
 }
 
 .wrapper {
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     text-align: center;
     background-color: #ffffff;
     margin-left: auto;
@@ -227,7 +228,7 @@ section {
   }
 
   .carousel-controls button {
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: #b1afaf;
     color: #333;
     padding: 10px 20px;
@@ -246,7 +247,7 @@ section {
     align-items: center;
     padding: 50px 0;
     background-color: #dfdfdf;
-    border-radius: 2%;
+    border-radius: 10px;
   }
   
   .container {
@@ -272,7 +273,7 @@ section {
   
   button.destaque {
     padding: 10px 20px;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: #a5a5a5;
     color: #333;
     font-size: 18px;
@@ -307,13 +308,21 @@ section {
         padding: 18px;
         width: 100%;
         max-width: 768px;
+        font-size: 10px;
     }
 
     .bandeiras {
         justify-content: center;
         margin-bottom: 15px;
     }
-
+    .text {
+        display: flex;
+        text-align: center;
+        max-width: 500px;
+        max-height: 175px;
+        align-items: center;
+        font-size: 10px;
+    }
     .bandeiras img {
         margin-right: 10px;
     }
@@ -325,6 +334,10 @@ section {
 
     nav {
         padding: 10px;
+    }
+    main {
+        display: flex;
+        justify-content: center;
     }
 
     .login {
@@ -387,10 +400,14 @@ section {
         padding: 18px;
         width: 100%;
         max-width: 480px;
+        font-size: 16px;
     }
     .cont1{
         display: flex;
         flex-direction: column;
+    }
+    .imagem{
+        width: 200px;
     }
 
     figure img {
@@ -405,6 +422,15 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 50px;
+    }
+    .text {
+        display: flex;
+        text-align: center;
+        max-width: 500px;
+        max-height: 175px;
+        align-items: center;
+        font-size: 10px;
     }
     
     nav a {
@@ -414,7 +440,20 @@ section {
     .copy {
         font-size: 12px;
     }
-
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    .cont2{
+        display: flex;
+        flex-direction: column;
+    }
+    .fotos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .wrapper {
         width: 100%;
         max-width: 480px;

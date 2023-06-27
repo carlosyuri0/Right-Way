@@ -9,8 +9,6 @@ class Usuario {
   }
 
   async criar() {
-    console.log("TESTEEEEEEEE")
-    console.log(this.nome);
     const query = 'INSERT INTO usuario (nome, email, senha) VALUES (?, ?, ?);';
     const values = [this.nome, this.email, this.senha];
 
@@ -54,7 +52,6 @@ class Usuario {
       throw new Error('Erro ao consultar usuário no banco de dados.');
     }
   }
-
   async deletar() {
     if (!this.id) {
       throw new Error('Não é possível deletar um usuário sem ID.');

@@ -10,7 +10,7 @@ exports.processarFormulario = async (req, res) => {
         const contato = new Contato({ nome, email, assunto, mensagem });
 
         await contato.criar();
-        res.render('contato/formulario',{mensagem: "Mensagem enviado com Sucesso!"});
+        res.render('contato/formulario',{mensagem: "Mensagem enviada com Sucesso!"});
     } catch (error) {
         res.status(500).render('error', { message: 'Erro no servidor', error });
     }
