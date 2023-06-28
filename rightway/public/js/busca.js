@@ -15,11 +15,11 @@ const searchBar = document.getElementById("search-bar");
               { text: "Tecnologia da Informação", link: "#ti" },
               { text: "Administração", link: "#adm" },
               { text: "Artes Visuais", link: "#artes" },
-              { text: "Engenharia de Software", link: "#Engenharia de Software" },
               { text: "Ciências Contábeis", link: "#CienciasContabeis" },
               { text: "Enfermagem", link: "#Enfermagem" },
               { text: "Arquitetura e Urbanismo", link: "#Arquitetura e Urbanismo" },
               { text: "Engenharia de Produção", link: "#engenharia de produção" },
+              { text: "Gastronomia", link: "#gatronomia" },
             ];
             
             searchBar.addEventListener("input", function() {
