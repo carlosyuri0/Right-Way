@@ -22,6 +22,10 @@ header {
   height: 101px;
   align-items: center;
 }
+.nomeusuario {
+  color:rgb(255, 255, 255);
+  margin-left: 1200px; 
+}
 
 figure img {
   width: 100px;
@@ -52,7 +56,9 @@ nav a {
   text-decoration: none;
   padding: 15px;
 }
-
+.logo{
+  margin-left: 2px;
+}
 .login {
   position: absolute;
   top: 104px;

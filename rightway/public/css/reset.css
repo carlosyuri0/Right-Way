@@ -40,6 +40,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+.nomeusuario {
+    color:rgb(255, 255, 255);
+    margin-left: 1200px; 
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;

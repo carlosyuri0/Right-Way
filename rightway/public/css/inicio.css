@@ -21,6 +21,10 @@ header {
     background-color: #ffffff;
     height: 101px;
 }
+.nomeusuario {
+    color:rgb(255, 255, 255);
+    margin-left: 1200px; 
+}
 
 figure img {
     width: 100px;
@@ -111,18 +115,18 @@ main {
 }
 .titulo2{
     font-size: 30px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman';
 }
 .titulo1{
     font-size: 40px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman';
 }
 .titulo3{
     font-size: 25px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman';
 }
 p{
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman';
     font-size: 20px;
 }
 section {

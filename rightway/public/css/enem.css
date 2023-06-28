@@ -27,7 +27,10 @@ figure img {
     width: 101px;
     margin-left: 0px;
 }
-
+.nomeusuario {
+    color:rgb(255, 255, 255);
+    margin-left: 1200px; 
+}
 nav{
     background-color: #007FE0;
 }

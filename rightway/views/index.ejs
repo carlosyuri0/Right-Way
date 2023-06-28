@@ -42,12 +42,12 @@
         <a href="/depoimentos">Depoimentos</a>
         <a href="/contato">Contato</a>
 
-        <% if (typeof usuario === "undefined") { %>
+        <% if (typeof usuario==="undefined" ) { %>
             <a href="/usuarios/login" class="login">Login</a>
-        <% } else { %>
-            <span>Seja bem-vindo <%= usuario.email %></span>
-        <% } %>
-        
+            <% } else { %>
+                <span class="nomeusuario">Seja bem-vindo <%= usuario.nome %></span>
+                <% } %>
+
 
     </nav>
     <main>
@@ -118,8 +118,9 @@
                 <div class="container">
                     <h2>Siga-nos no Instagram!</h2>
                     <p>Fique atento a postagens diariamente.</p><br>
-                    
-                    <a href="https://www.instagram.com/rightwayofc/" target="_blank"><button class="destaque">Acesse</button></a>
+
+                    <a href="https://www.instagram.com/rightwayofc/" target="_blank"><button
+                            class="destaque">Acesse</button></a>
                 </div>
                 <div class="imagem">
                     <img src="img/instagram.png" alt="logoInstagram">
@@ -131,45 +132,62 @@
                     <img src="img/LogoRightWay.png" alt="Produto">
                 </div>
                 <div class="container">
-                    <h2>Siga-nos no Instagram!</h2>
-                    <p>Fique atento a postagens diariamente.</p><br>
-                    
-                    <a href="https://www.instagram.com/rightwayofc/" target="_blank"><button class="destaque">Acesse</button></a>
+                    <h2>Ainda não é cadasatrado?</h2>
+                    <p>Cadastre-se agora mesmo</p><br>
+
+                    <a href="/usuarios/cadastro"><button
+                            class="destaque">Acesse</button></a>
                 </div>
-    
+
             </section>
+            <br>
+            <hr>
+            
             <div class="cont2">
-                <figure class="fotos"><img class="foto1" src="img/foto-aleatoria.jpg" alt="Foto"></figure>
+                <!--<figure class="fotos"><img class="foto1" src="img/foto-aleatoria.jpg" alt="Foto"></figure>-->
                 <div class="conteudo3">
                     <h2 class="titulo2">Apresentação das páginas</h2>
-                    <p><b>1- Página de Vestibulares:</b><br><br>
-
-                        -Dicas sobre cursos pré-vestibulares;<br>
-                        -Informações sobre sites que oferecem cursos pré-vestibulares;<br>
-                        -O usuário poderá ter acesso a informações sobre vestibulares em aberto.<br><br>
-
-                        <b>2- Página de Informações sobre os Cursos:</b><br><br>
-
-                        -Campo de pesquisa por nome de curso;<br>
-                        -Breve descrição sobre os mesmos.<br><br>
-
-                        <b>3- Página de Depoimentos:</b><br><br>
-
-                        -Área para pesquisa e visualização de depoimentos de outros usuários;<br>
-                        -Opção para envio de depoimentos sobre cursos ou instituições de ensino.<br><br>
-
-                        <b>4- Página de Contato:</b><br><br>
-
-                        -Formulário de contato para os usuários se comunicarem com a equipe de desenvolvimento do
-                        site;<br>
-                        -Informações sobre a equipe de desenvolvimento;<br>
-                        -Links das redes sociais do site, onde vão falar diretamente com os desenvolvedores.<br><br>
-
-                        <b>5- Página de Login/Cadastro:</b><br><br>
-
-                        -Formulário de Login para usuários já cadastrados (email e senha);<br>
-                        -Formulário simplificado para cadastro de novos usuários (nome de usuário, e-mail e senha).
+                    <p>
+                        <b>1- Página de Vestibulares:</b><br>
+                        Nesta página, você encontrará dicas valiosas sobre cursos pré-vestibulares, disponibilizamos
+                        uma lista de sites confiáveis que oferecem cursos pré-vestibulares online, permitindo que você
+                        amplie seus conhecimentos e se prepare adequadamente.
                     </p>
+                    <br>
+                    <p>
+                        <b>2- Página de Informações sobre os Cursos:</b><br>
+                        Nessa página, você encontrará um campo de pesquisa no qual pode pesquisar por nome de curso.
+                        Através dessa pesquisa, você terá acesso a uma variedade de cursos disponíveis, juntamente com
+                        uma breve descrição de cada um deles.
+                    </p>
+                    <br>
+                    <p>
+                        <b>3- Página de Depoimentos:</b><br>
+                        Na página de Depoimentos, você terá acesso a uma área dedicada à pesquisa e visualização de
+                        depoimentos de outros usuários. Aqui, você poderá ler as experiências e opiniões de alunos que
+                        já participaram de cursos ou instituições de ensino específicas. Além disso, também oferecemos a
+                        opção de envio de depoimentos, para que você possa compartilhar suas próprias experiências e
+                        fornecer feedback valioso para outros usuários.
+                    </p>
+                    <br>
+                    <p>
+                        <b>4- Página de Contato:</b><br>
+                        A página de Contato é projetada para facilitar a comunicação entre os usuários e a equipe de
+                        desenvolvimento do site. Você encontrará um formulário de contato no qual poderá enviar suas
+                        dúvidas, sugestões ou quaisquer outras questões relacionadas ao site. Também incluímos links para as redes sociais do site, 
+                        onde você pode interagir  diretamente com os desenvolvedores e ficar por dentro das últimas atualizações e novidades.
+                    </p>
+                    <br>
+                    <p>
+                        <b>5- Página de Login/Cadastro:</b><br>
+                        A página de Login/Cadastro oferece dois formulários distintos. Para os usuários já cadastrados,
+                        há um formulário de Login no qual você pode inserir seu e-mail e senha para acessar sua conta.
+                        Para novos usuários, fornecemos um formulário simplificado de cadastro, onde você pode preencher
+                        seu nome de usuário, e-mail e senha para criar uma nova conta no site. Essa página é essencial
+                        para garantir uma experiência personalizada e segura aos usuários, permitindo o acesso a
+                        recursos exclusivos e a interação com outras funcionalidades do site.
+                    </p>
+
                 </div>
             </div>
         </div>
